@@ -1,0 +1,403 @@
+{
+  "eventsData": [
+    {
+      "timestamp": "2011-02-22 19:30",
+      "deviceId": 12,
+      "deviceName": "Juanito1",
+      "alertId": 1,
+      "alertName": "Voltaje bajo",
+      "entry": "V0"
+    },
+    {
+      "timestamp": "2012-02-22 19:30",
+      "deviceId": 12,
+      "deviceName": "Juanito1",
+      "alertId": 2,
+      "alertName": "Voltaje ql",
+      "entry": "V0"
+    },
+    {
+      "timestamp": "2016-02-22 19:30",
+      "deviceId": 12,
+      "deviceName": "Juanito1",
+      "alertId": 5,
+      "alertName": "Voltaje xd",
+      "entry": "V0"
+    },
+    {
+      "timestamp": "2020-02-22 19:30",
+      "deviceId": 12,
+      "deviceName": "Juanito1",
+      "alertId": 3,
+      "alertName": "Voltaje dab",
+      "entry": "V0"
+    }
+  ],
+  "alertsData": [
+    {
+      "id": 2,
+      "name": "Voltaje alto",
+      "deviceId": 10,
+      "deviceName": "Juanita3",
+      "entry": "V1",
+      "description": "Alerta 'Voltaje alto' se activa cuando voltaje está entre A y B",
+      "status": 1
+    },
+    {
+      "id": 3,
+      "name": "Voltaje xd",
+      "deviceId": 10,
+      "deviceName": "Juanita3",
+      "entry": "V1",
+      "description": "Alerta 'Voltaje xd' se activa cuando voltaje está entre A y B",
+      "status": 1
+    },
+    {
+      "id": 4,
+      "name": "Voltaje bajo",
+      "deviceId": 10,
+      "deviceName": "Juanita3",
+      "entry": "V1",
+      "description": "Alerta 'Voltaje bajo' se activa cuando voltaje está entre A y B",
+      "status": 1
+    },
+    {
+      "id": 5,
+      "name": "Voltaje dab",
+      "deviceId": 10,
+      "deviceName": "Juanita3",
+      "entry": "V1",
+      "description": "Alerta 'Voltaje dab' se activa cuando voltaje está entre A y B",
+      "status": 1
+    },
+    {
+      "id": 6,
+      "name": "temperatura baja",
+      "deviceId": 10,
+      "deviceName": "Juanita3",
+      "entry": "V1",
+      "description": "Alerta 'temperatura baja' se activa cuando voltaje está entre A y B",
+      "status": 1
+    }
+  ],
+  "alertData": {
+    "id": 2,
+    "entryId": 9,
+    "name": "alarmaxd",
+    "lowerbound": 0,
+    "upperbound": 10,
+    "entry": "V1",
+    "subject": "My subject",
+    "body": "Equisde",
+    "description": "dsadsadsadsa",
+    "status": 1,
+    "emails": "email@1.cl,email@2.cl,email@3.cl",
+    "numbers": "+5692312313,+5691312323,+5691312123",
+    "deviceName": "Mojito"
+  },
+  "devicesData": [
+    {
+      "id": 1,
+      "modelId": 0,
+      "companyId": 37,
+      "mac": "AA:BA:CC:DD:EE:FF",
+      "name": "Mojito",
+      "hostname": "Mojito1.enlazza.cl",
+      "model": "xd",
+      "status": 1,
+      "cellphone": "+5691235213",
+      "imgDir": "www.pixiv.cl/hot/routers/Mojito"
+    },
+    {
+      "id": 2,
+      "modelId": 0,
+      "companyId": 37,
+      "mac": "AA:BB:CC:FA:EE:FF",
+      "name": "Mojito2",
+      "hostname": "Mojito2.enlazza.cl",
+      "model": "xd",
+      "status": 1,
+      "cellphone": "+5694435213",
+      "imgDir": "www.pixiv.cl/hot/routers/Mojito"
+    },
+    {
+      "id": 3,
+      "modelId": 0,
+      "companyId": 37,
+      "mac": "AA:BB:CC:FE:EE:FF",
+      "name": "Mojito3",
+      "hostname": "Mojito3.enlazza.cl",
+      "model": "xd",
+      "status": 0,
+      "cellphone": "+5691225213",
+      "imgDir": "www.pixiv.cl/hot/routers/Mojito"
+    }
+  ],
+  "entriesData": [
+    {
+      "id": 1,
+      "deviceId": 3,
+      "entry": "V5",
+      "name": "xd"
+    },
+    {
+      "id": 2,
+      "deviceId": 4,
+      "entry": "V2",
+      "name": "chalo"
+    },
+    {
+      "id": 3,
+      "deviceId": 1,
+      "entry": "V11",
+      "name": "ql"
+    }
+  ],
+  "modelsData": [
+    {
+      "id": 1,
+      "name": "chalo",
+      "imgdir": "www.hola.com/routerjuan.jpg"
+    },
+    {
+      "id": 2,
+      "name": "ql",
+      "imgdir": "www.hola.com/dab.jpg"
+    },
+    {
+      "id": 3,
+      "name": "xd",
+      "imgdir": "www.hola.com/xd.jpg"
+    }
+  ],
+  "alertStatus": {
+    "alertId": 2,
+    "status": 0
+  },
+  "latest": {
+    "voltage": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "current": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "measurementData": [
+    {
+      "voltage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "current": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "measuredAt": "1992-02-22 17:56:23"
+    },
+    {
+      "voltage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "current": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "measuredAt": "1995-02-22 17:56:23"
+    },
+    {
+      "voltage": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "current": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "measuredAt": "1999-02-22 17:56:23"
+    }
+  ],
+  "deviceEventsData": [
+    {
+      "timestamp": "2002-01-01 00:00:00",
+      "alertId": 1,
+      "alertName": "temperatura",
+      "entry": "A1",
+      "description": "Medición igual que el límite aceptado"
+    },
+    {
+      "timestamp": "2001-01-01 00:00:00",
+      "alertId": 3,
+      "alertName": "dab",
+      "entry": "A2",
+      "description": "Medición mayor que el límite aceptado"
+    },
+    {
+      "timestamp": "2000-01-01 00:00:00",
+      "alertId": 2,
+      "alertName": "temperatura",
+      "entry": "V1",
+      "description": "Medición menor que el límite aceptado"
+    }
+  ],
+  "deviceAlertsData": [
+    {
+      "id": 2,
+      "name": "temperatura muy baja",
+      "entry": "V0",
+      "description": "chalo ql",
+      "status": 1
+    },
+    {
+      "id": 1,
+      "name": "temperatura muy baja",
+      "entry": "V2",
+      "description": "xd",
+      "status": 0
+    },
+    {
+      "id": 3,
+      "name": "temperatura muy baja",
+      "entry": "A0",
+      "description": "dab",
+      "status": 1
+    }
+  ],
+  "login": {
+    "accessToken": "MTQ0NjJkZmQ5OTM2NDE1ZTZjNGZmZjI3",
+    "refreshToken": "IwOGYzYTlmM2YxOTQ5MGE3YmNmMDFkNTVk",
+    "expiresIn": 3600,
+    "tokenType": "Bearer",
+    "companyId": 15
+  },
+  "dummy": {
+    "alert_data": {
+      "entryId": 10,
+      "companyId": 3,
+      "deviceId": 6,
+      "lowerbound": 12.2,
+      "upperbound": 100.9,
+      "name": "asdasd",
+      "subject": "My subject",
+      "body": "Equisde",
+      "status": 1
+    },
+    "emails": "email@1.cl,email@2.cl,email@3.cl",
+    "numbers": "+5692312313,+5691312323,+5691312123"
+  },
+  "dummy2": {}
+}
